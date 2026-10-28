@@ -2,64 +2,53 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contact us | AK Smarts</title>
-<meta name="description" content="Contact AK Smarts for help with our apps, feedback or new app ideas.">
-<link rel="canonical" href="https://aksmarts.com/contact.html">
-<meta property="og:title" content="Contact us | AK Smarts">
-<meta property="og:description" content="Contact AK Smarts for help with our apps, feedback or new app ideas.">
-<meta property="og:url" content="https://aksmarts.com/contact.html">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://aksmarts.com/pdf-app-icon.png">
-<meta name="theme-color" content="#1748c9">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/style.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7291442848970194" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — AK Smarts</title>
+<meta name="description" content="Contact AK Smarts at info@aksmarts.com.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap bar">
-    <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1748c9"/><path d="M9 29 16.2 11h3.6L27 29h-4l-1.5-4h-7l-1.5 4Zm6.6-7.3h4.8L18 15.2Z" fill="#fff"/><path d="M25 11h3.6v7.2L34 11h4.3l-6 7.6L38.6 29h-4.4l-4.6-7.8-1 1.2V29H25Z" fill="#f5b81b"/></svg><span>AK <b>Smarts</b></span></a>
-    <nav><a href="/">Home</a><a href="/about.html">About</a><a href="/contact.html" aria-current="page">Contact</a></nav>
-  </div>
+<header class="site-header">
+ <div class="wrap nav">
+  <a class="brand" href="index.html"><span class="mark">AK</span>AK Smarts</a>
+  <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <nav class="nav-links"><a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html" class=active>Contact</a><a class="nav-cta" href="https://pdf.aksmarts.com">Open PDF app</a></nav>
+ </div>
 </header>
-<main>
-
-<section class="wrap section prose">
-  <h1>Contact us</h1>
-  <p class="lead">Have a question, found a problem, or want to suggest a new app? We are happy to help.</p>
-  <div class="cards2">
-    <div class="feat"><h3>Email</h3><p><a href="mailto:aksmartspdf@gmail.com">aksmartspdf@gmail.com</a></p><p class="muted">We usually reply within two working days.</p></div>
-    <div class="feat"><h3>AK Smarts PDF help</h3><p>For help with a PDF tool, email us and tell us which tool you used and what happened. Please do not send private documents.</p></div>
+<section class="hero small"><div class="wrap">
+<span class="pill">Contact</span><h1>Talk to <span class="accent">us</span></h1><p class="lead">Questions, feedback, or business enquiries. We read every message.</p></div></section>
+<section class="block"><div class="wrap contact-grid">
+ <div class="card">
+  <h2 style="font-size:24px">Get in touch</h2>
+  <div class="contact-item"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span><div><b>Email</b><a href="mailto:info@aksmarts.com">info@aksmarts.com</a></div></div>
+  <div class="contact-item"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Address</b><span>Yelahanka Newtown, Bengaluru, Karnataka, 560064</span></div></div>
+  <div class="contact-item"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7M12 17h.01"/></svg></span><div><b>Help with AK Smarts PDF</b><span>Most answers are on <a href="https://pdf.aksmarts.com">pdf.aksmarts.com</a>. Still stuck? Email us.</span></div></div>
+ </div>
+ <form class="card" onsubmit="event.preventDefault();var f=this;location.href='mailto:info@aksmarts.com?subject='+encodeURIComponent('['+f.topic.value+'] from '+f.name.value)+'&body='+encodeURIComponent(f.msg.value+'\n\n'+f.name.value+' <'+f.email.value+'>');">
+  <h2 style="font-size:24px">Send a message</h2>
+  <p style="color:var(--muted);margin:0 0 20px;font-size:15px">This opens your email app with the message ready to send to info@aksmarts.com.</p>
+  <div class="row2"><div><label for="name">Your name</label><input id="name" name="name" required></div>
+  <div><label for="email">Email</label><input id="email" name="email" type="email" required></div></div>
+  <label for="topic">Topic</label>
+  <select id="topic" name="topic"><option>General question</option><option>AK Smarts PDF help</option><option>Business / partnership</option><option>Feedback</option></select>
+  <label for="msg">Message</label><textarea id="msg" name="msg" rows="6" required></textarea>
+  <button class="btn btn-dark" type="submit">Send message <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+ </form>
+</div></section>
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <div><a class="brand" href="index.html"><span class="mark">AK</span>AK Smarts</a>
+    <p>Simple, private apps for everyday work. Made in India.</p></div>
+   <div><h4>Products</h4><a href="https://pdf.aksmarts.com">AK Smarts PDF</a><a href="products.html">All products</a></div>
+   <div><h4>Company</h4><a href="about.html">About us</a><a href="contact.html">Contact</a><a href="mailto:info@aksmarts.com">info@aksmarts.com</a></div>
+   <div><h4>Legal</h4><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></div>
   </div>
-  <h2>Business details</h2>
-  <p>AK Smarts<br>India</p>
-  <p class="muted">For privacy questions, see our <a href="/privacy.html">Privacy Policy</a>. For the rules of using our apps, see our <a href="/terms.html">Terms of Use</a>.</p>
-</section>
-
-</main>
-<footer class="foot">
-  <div class="wrap fgrid">
-    <div>
-      <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1748c9"/><path d="M9 29 16.2 11h3.6L27 29h-4l-1.5-4h-7l-1.5 4Zm6.6-7.3h4.8L18 15.2Z" fill="#fff"/><path d="M25 11h3.6v7.2L34 11h4.3l-6 7.6L38.6 29h-4.4l-4.6-7.8-1 1.2V29H25Z" fill="#f5b81b"/></svg><span>AK <b>Smarts</b></span></a>
-      <p>Simple, private tools that work right in your browser. Made in India.</p>
-    </div>
-    <div>
-      <h4>Apps</h4>
-      <a href="https://pdf.aksmarts.com/">AK Smarts PDF</a>
-      <span class="muted">More apps coming soon</span>
-    </div>
-    <div>
-      <h4>Company</h4>
-      <a href="/about.html">About us</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Use</a>
-    </div>
-  </div>
-  <div class="wrap copy">© <span id="y">2026</span> AK Smarts. All rights reserved.</div>
+  <div class="copy"><span>© 2026 AK Smarts. All rights reserved.</span><span>info@aksmarts.com</span></div>
+ </div>
 </footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>

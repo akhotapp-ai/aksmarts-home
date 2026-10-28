@@ -2,70 +2,63 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About us | AK Smarts</title>
-<meta name="description" content="Learn about AK Smarts, an Indian software studio building simple, private web apps like AK Smarts PDF.">
-<link rel="canonical" href="https://aksmarts.com/about.html">
-<meta property="og:title" content="About us | AK Smarts">
-<meta property="og:description" content="Learn about AK Smarts, an Indian software studio building simple, private web apps like AK Smarts PDF.">
-<meta property="og:url" content="https://aksmarts.com/about.html">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://aksmarts.com/pdf-app-icon.png">
-<meta name="theme-color" content="#1748c9">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/style.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7291442848970194" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About us — AK Smarts</title>
+<meta name="description" content="About AK Smarts, the company behind AK Smarts PDF.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap bar">
-    <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1748c9"/><path d="M9 29 16.2 11h3.6L27 29h-4l-1.5-4h-7l-1.5 4Zm6.6-7.3h4.8L18 15.2Z" fill="#fff"/><path d="M25 11h3.6v7.2L34 11h4.3l-6 7.6L38.6 29h-4.4l-4.6-7.8-1 1.2V29H25Z" fill="#f5b81b"/></svg><span>AK <b>Smarts</b></span></a>
-    <nav><a href="/">Home</a><a href="/about.html" aria-current="page">About</a><a href="/contact.html">Contact</a></nav>
-  </div>
+<header class="site-header">
+ <div class="wrap nav">
+  <a class="brand" href="index.html"><span class="mark">AK</span>AK Smarts</a>
+  <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <nav class="nav-links"><a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html" class=active>About</a><a href="contact.html">Contact</a><a class="nav-cta" href="https://pdf.aksmarts.com">Open PDF app</a></nav>
+ </div>
 </header>
-<main>
-
-<section class="wrap section prose">
-  <h1>About AK Smarts</h1>
-  <p class="lead">AK Smarts builds simple, fast and private web apps for everyday work.</p>
-  <h2>Who we are</h2>
-  <p>AK Smarts is an independent software studio based in India. We make tools that solve common, practical problems: the kind of small tasks that take far too long without the right app.</p>
-  <h2>What we make</h2>
-  <p>Our first product is <a href="https://pdf.aksmarts.com/">AK Smarts PDF</a>, a complete set of PDF tools that runs in the browser. You can compress, merge, split, convert, edit, sign (including with a Digital Signature Certificate) and protect PDF files on a phone or a computer. More apps are on the way, and each one will have its own address under aksmarts.com.</p>
-  <h2>How we work</h2>
-  <ul>
-    <li><b>Privacy first.</b> Wherever possible, your files are processed on your own device and never uploaded to our servers.</li>
-    <li><b>Simple to use.</b> Clear screens and plain language, so anyone can get the job done.</li>
-    <li><b>Works everywhere.</b> Our apps run in any modern browser on Windows, Mac, Android and iPhone.</li>
-    <li><b>Honest.</b> No hidden charges and no surprise watermarks.</li>
-  </ul>
-  <h2>Get in touch</h2>
-  <p>We would love to hear from you. Write to us at <a href="mailto:aksmartspdf@gmail.com">aksmartspdf@gmail.com</a> or visit our <a href="/contact.html">contact page</a>.</p>
-</section>
-
-</main>
-<footer class="foot">
-  <div class="wrap fgrid">
-    <div>
-      <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1748c9"/><path d="M9 29 16.2 11h3.6L27 29h-4l-1.5-4h-7l-1.5 4Zm6.6-7.3h4.8L18 15.2Z" fill="#fff"/><path d="M25 11h3.6v7.2L34 11h4.3l-6 7.6L38.6 29h-4.4l-4.6-7.8-1 1.2V29H25Z" fill="#f5b81b"/></svg><span>AK <b>Smarts</b></span></a>
-      <p>Simple, private tools that work right in your browser. Made in India.</p>
-    </div>
-    <div>
-      <h4>Apps</h4>
-      <a href="https://pdf.aksmarts.com/">AK Smarts PDF</a>
-      <span class="muted">More apps coming soon</span>
-    </div>
-    <div>
-      <h4>Company</h4>
-      <a href="/about.html">About us</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Use</a>
-    </div>
+<section class="hero small"><div class="wrap">
+<span class="pill">About us</span><h1>Making everyday work <span class="accent">simpler</span></h1><p class="lead">AK Smarts builds simple, private apps that help people get routine digital work done faster.</p></div></section>
+<section class="block"><div class="wrap">
+ <div class="grid g2" style="align-items:center;gap:40px">
+  <div>
+   <p class="eyebrow">Our story</p>
+   <h2>Why we started</h2>
+   <p style="color:var(--muted);font-size:17px">AK Smarts started in India with a simple idea: everyday work software should be simple, affordable and respectful of your privacy. We began with PDF tools because documents are where most people lose time. More tools for daily office work are coming soon.</p>
+   <p style="color:var(--muted);font-size:17px">Our first product, <a href="https://pdf.aksmarts.com">AK Smarts PDF</a>, brings 49+ PDF tools into one free app and keeps your files on your own device. More products coming soon.</p>
   </div>
-  <div class="wrap copy">© <span id="y">2026</span> AK Smarts. All rights reserved.</div>
+  <div class="grid g2">
+   <div class="card"><span class="ico big"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span><h3>Our mission</h3><p>Make useful tools that anyone can pick up and use in seconds.</p></div>
+   <div class="card"><span class="ico big"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><h3>Our vision</h3><p>Everyday business software that anyone can pick up and use in seconds.</p></div>
+   <div class="card"><span class="ico big"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z"/></svg></span><h3>Privacy first</h3><p>Your files are your business. We process them on your device wherever possible.</p></div>
+   <div class="card"><span class="ico big"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22V4M4 4h13l-2 4 2 4H4"/></svg></span><h3>Made in India</h3><p>Built for the documents, portals and phones people use here.</p></div>
+  </div>
+ </div>
+</div></section>
+
+
+<section class="block" style="padding-top:0"><div class="wrap"><div class="band">
+ <p class="eyebrow">Company details</p>
+ <h2>AK Smarts at a glance</h2>
+ <div class="grid g4" style="margin-top:26px">
+  <div class="card"><h3>Founded</h3><p>2026</p></div>
+  <div class="card"><h3>Based in</h3><p>Bengaluru, Karnataka, India</p></div>
+  <div class="card"><h3>Products</h3><p>AK Smarts PDF</p></div>
+  <div class="card"><h3>Contact</h3><p>info@aksmarts.com</p></div>
+ </div>
+</div></div></section>
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <div><a class="brand" href="index.html"><span class="mark">AK</span>AK Smarts</a>
+    <p>Simple, private apps for everyday work. Made in India.</p></div>
+   <div><h4>Products</h4><a href="https://pdf.aksmarts.com">AK Smarts PDF</a><a href="products.html">All products</a></div>
+   <div><h4>Company</h4><a href="about.html">About us</a><a href="contact.html">Contact</a><a href="mailto:info@aksmarts.com">info@aksmarts.com</a></div>
+   <div><h4>Legal</h4><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></div>
+  </div>
+  <div class="copy"><span>© 2026 AK Smarts. All rights reserved.</span><span>info@aksmarts.com</span></div>
+ </div>
 </footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>

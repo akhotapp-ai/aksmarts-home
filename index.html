@@ -2,116 +2,92 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AK Smarts | Simple, private web apps</title>
-<meta name="description" content="AK Smarts builds fast, simple and private web apps. Try AK Smarts PDF: compress, merge, split, convert and sign PDFs free in your browser.">
-<link rel="canonical" href="https://aksmarts.com/">
-<meta property="og:title" content="AK Smarts | Simple, private web apps">
-<meta property="og:description" content="AK Smarts builds fast, simple and private web apps. Try AK Smarts PDF: compress, merge, split, convert and sign PDFs free in your browser.">
-<meta property="og:url" content="https://aksmarts.com/">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://aksmarts.com/pdf-app-icon.png">
-<meta name="theme-color" content="#1748c9">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/style.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7291442848970194" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AK Smarts — Simple, private apps for everyday work</title>
+<meta name="description" content="AK Smarts builds simple, private apps for everyday work. Our first product, AK Smarts PDF, lets you read, edit, sign and convert PDFs on your own device.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap bar">
-    <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1748c9"/><path d="M9 29 16.2 11h3.6L27 29h-4l-1.5-4h-7l-1.5 4Zm6.6-7.3h4.8L18 15.2Z" fill="#fff"/><path d="M25 11h3.6v7.2L34 11h4.3l-6 7.6L38.6 29h-4.4l-4.6-7.8-1 1.2V29H25Z" fill="#f5b81b"/></svg><span>AK <b>Smarts</b></span></a>
-    <nav><a href="/" aria-current="page">Home</a><a href="/about.html">About</a><a href="/contact.html">Contact</a></nav>
-  </div>
+<header class="site-header">
+ <div class="wrap nav">
+  <a class="brand" href="index.html"><span class="mark">AK</span>AK Smarts</a>
+  <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <nav class="nav-links"><a href="index.html" class=active>Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="nav-cta" href="https://pdf.aksmarts.com">Open PDF app</a></nav>
+ </div>
 </header>
-<main>
+<section class="hero"><div class="wrap hero-grid">
+ <div>
+  <span class="pill">Made in India</span>
+  <h1>Smart apps for<br>everyday work.<br><span class="accent">Simple. Private.</span></h1>
+  <p class="lead">AK Smarts builds easy-to-use tools for people, students and small businesses. Your files stay on your own device, and our apps are free to start.</p>
+  <div class="btns"><a class="btn btn-primary" href="products.html">See our products <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn btn-ghost" href="https://pdf.aksmarts.com">Open AK Smarts PDF</a></div>
+  <div class="ticks"><span>Files stay on your device</span><span>Free to use</span><span>Computer &amp; phone</span></div>
+ </div>
+ <div class="showcase"><img src="assets/pdf-app-preview.png" alt="AK Smarts PDF app on computer and phone"></div>
+</div></section>
+<div class="strip"><div class="wrap">
+ <div><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>Private by design</div>
+ <div><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>Fast and simple</div>
+ <div><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="14" height="11" rx="2"/><rect x="17" y="9" width="5" height="11" rx="1"/><path d="M6 19h6"/></svg></span>Computer &amp; phone</div>
+ <div><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg></span>Made for India</div>
+</div></div>
 
-<section class="hero">
-  <div class="wrap">
-    <p class="eyebrow">AK Smarts</p>
-    <h1>Smart, simple tools for everyday work.</h1>
-    <p class="lead">We build easy web apps that save you time. They open in any browser, on phone or computer, and keep your files on your own device.</p>
-    <div class="cta">
-      <a class="btn" href="https://pdf.aksmarts.com/">Open AK Smarts PDF</a>
-      <a class="btn ghost" href="#apps">See our apps</a>
-    </div>
+<section class="block"><div class="wrap">
+ <p class="eyebrow">Our products</p>
+ <h2>Tools that just work</h2>
+ <p class="sub">We start with the everyday jobs that waste the most time, and make them quick.</p>
+ <div class="product">
+  <div class="info">
+   <div class="app-head"><img src="assets/ak-smarts-pdf-icon.png" alt=""><div><h3>AK Smarts PDF</h3><span class="url">pdf.aksmarts.com</span></div></div>
+   <div class="chips"><span>Read &amp; edit</span><span>e-Sign &amp; DSC</span><span>Compress to any size</span><span>Merge</span><span>Convert</span><span>OCR</span><span>Bulk rename</span></div>
+   <ul class="checks">
+    <li>49+ tools to read, edit, sign, compress, merge and convert PDFs</li>
+    <li>Compress to under 1 MB, 200 KB or 100 KB for job and government portals</li>
+    <li>Files are processed on your device and never uploaded</li>
+    <li>Works on Windows, Mac, Android and iPhone</li>
+   </ul>
+   <div class="btns"><a class="btn btn-dark" href="https://pdf.aksmarts.com">Open AK Smarts PDF <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
   </div>
-</section>
+  <div class="visual"><img src="assets/pdf-app-preview.png" alt="AK Smarts PDF preview"></div>
+ </div>
+ <div class="grid g2" style="margin-top:18px">
+  <div class="card soon"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><h3>More apps coming soon</h3><p>We are working on new tools for daily office work.</p></div>
+  <div class="card soon"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7M12 17h.01"/></svg></span><h3>Have an idea for us?</h3><p>Tell us what slows down your work at <a href="mailto:info@aksmarts.com">info@aksmarts.com</a>.</p></div>
+ </div>
+</div></section>
 
-<section class="wrap section" id="apps">
-  <h2>Our apps</h2>
-  <div class="apps">
-    <article class="app-card">
-      <div class="app-head">
-        <img src="/pdf-app-icon.png" width="72" height="72" alt="AK Smarts PDF icon">
-        <div>
-          <h3>AK Smarts PDF</h3>
-          <p class="muted">pdf.aksmarts.com</p>
-        </div>
-        <span class="badge">Live</span>
-      </div>
-      <p>Everything you need for PDF files in one place: edit, convert, compress, merge, split, sign and protect. It works in your browser and your files are processed on your own device, not uploaded.</p>
-      <div class="tools"><a class="tool" href="https://pdf.aksmarts.com/compress-pdf"><span class="ti">⇲</span><span><b>Compress PDF</b><small>Make PDFs smaller to email or upload</small></span></a><a class="tool" href="https://pdf.aksmarts.com/merge-pdf"><span class="ti">⊕</span><span><b>Merge PDF</b><small>Join many PDFs into one file</small></span></a><a class="tool" href="https://pdf.aksmarts.com/split-pdf"><span class="ti">✂</span><span><b>Split PDF</b><small>Take out the pages you need</small></span></a><a class="tool" href="https://pdf.aksmarts.com/pdf-to-word"><span class="ti">W</span><span><b>PDF to Word</b><small>Turn a PDF into an editable document</small></span></a><a class="tool" href="https://pdf.aksmarts.com/jpg-to-pdf"><span class="ti">▣</span><span><b>JPG to PDF</b><small>Turn photos and scans into a PDF</small></span></a><a class="tool" href="https://pdf.aksmarts.com/esign-pdf"><span class="ti">✎</span><span><b>Sign PDF</b><small>e-Sign or sign with your DSC</small></span></a><a class="tool" href="https://pdf.aksmarts.com/protect-pdf"><span class="ti">🔒</span><span><b>Protect PDF</b><small>Lock a PDF with a password</small></span></a><a class="tool" href="https://pdf.aksmarts.com/ocr-pdf"><span class="ti">Aa</span><span><b>OCR PDF</b><small>Make scanned text searchable</small></span></a></div>
-      <a class="btn" href="https://pdf.aksmarts.com/">Open AK Smarts PDF →</a>
-    </article>
-    <article class="app-card soon">
-      <div class="soon-icon">+</div>
-      <h3>More apps coming soon</h3>
-      <p>We are working on new tools for documents, images and daily office tasks. Each one will live on its own address under aksmarts.com.</p>
-      <a class="link" href="/contact.html">Suggest an app you need →</a>
-    </article>
+<section class="block" style="padding-top:0"><div class="wrap"><div class="band">
+ <p class="eyebrow">Why AK Smarts</p>
+ <h2>Built the way we'd want to use it</h2>
+ <p class="sub">Every app follows the same few promises.</p>
+ <div class="grid g4">
+  <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><h3>Private</h3><p>Your files are worked on in your own browser or device wherever possible.</p></div>
+  <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></span><h3>Simple</h3><p>Clear buttons, plain words, no training needed.</p></div>
+  <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="14" height="11" rx="2"/><rect x="17" y="9" width="5" height="11" rx="1"/><path d="M6 19h6"/></svg></span><h3>Everywhere</h3><p>Use it on your computer or phone, and install it like an app.</p></div>
+  <div class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg></span><h3>For India</h3><p>Made for the documents and portals people here use every day.</p></div>
+ </div>
+</div></div></section>
+
+<section class="block" style="padding-top:0"><div class="wrap"><div class="cta">
+ <h2>Try AK Smarts PDF today</h2>
+ <p>Free to use. No upload, no waiting.</p>
+ <div class="btns" style="justify-content:center"><a class="btn btn-dark" href="https://pdf.aksmarts.com">Open the PDF app <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+ <p style="margin:18px 0 0"><a href="contact.html">Questions? Contact us</a></p>
+</div></div></section>
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <div><a class="brand" href="index.html"><span class="mark">AK</span>AK Smarts</a>
+    <p>Simple, private apps for everyday work. Made in India.</p></div>
+   <div><h4>Products</h4><a href="https://pdf.aksmarts.com">AK Smarts PDF</a><a href="products.html">All products</a></div>
+   <div><h4>Company</h4><a href="about.html">About us</a><a href="contact.html">Contact</a><a href="mailto:info@aksmarts.com">info@aksmarts.com</a></div>
+   <div><h4>Legal</h4><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></div>
   </div>
-</section>
-
-<section class="why">
-  <div class="wrap section">
-    <h2>Why people use AK Smarts</h2>
-    <div class="grid3">
-      <div class="feat"><h3>Private by design</h3><p>Your PDFs and images are worked on inside your browser. We do not store the contents of your files.</p></div>
-      <div class="feat"><h3>Works everywhere</h3><p>Use it on Windows, Mac, Android or iPhone. No heavy software to install, and you can add it to your home screen.</p></div>
-      <div class="feat"><h3>Fast and simple</h3><p>Clear screens, one task at a time, and no confusing settings. Most jobs take a few seconds.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="wrap section about-short">
-  <h2>About us</h2>
-  <p>AK Smarts is a small software studio from India. We started with AK Smarts PDF because everyday PDF work, like shrinking a file for a government form or joining scanned pages, should be quick and free of hassle. Our goal is to build a family of useful, trustworthy apps that anyone can use.</p>
-  <p><a class="link" href="/about.html">Read more about us →</a></p>
-</section>
-
-<section class="wrap section">
-  <div class="contact-box">
-    <div>
-      <h2>Questions or ideas?</h2>
-      <p>We read every message and usually reply within two working days.</p>
-    </div>
-    <a class="btn" href="mailto:aksmartspdf@gmail.com">aksmartspdf@gmail.com</a>
-  </div>
-</section>
-
-</main>
-<footer class="foot">
-  <div class="wrap fgrid">
-    <div>
-      <a class="brand" href="/"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#1748c9"/><path d="M9 29 16.2 11h3.6L27 29h-4l-1.5-4h-7l-1.5 4Zm6.6-7.3h4.8L18 15.2Z" fill="#fff"/><path d="M25 11h3.6v7.2L34 11h4.3l-6 7.6L38.6 29h-4.4l-4.6-7.8-1 1.2V29H25Z" fill="#f5b81b"/></svg><span>AK <b>Smarts</b></span></a>
-      <p>Simple, private tools that work right in your browser. Made in India.</p>
-    </div>
-    <div>
-      <h4>Apps</h4>
-      <a href="https://pdf.aksmarts.com/">AK Smarts PDF</a>
-      <span class="muted">More apps coming soon</span>
-    </div>
-    <div>
-      <h4>Company</h4>
-      <a href="/about.html">About us</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/terms.html">Terms of Use</a>
-    </div>
-  </div>
-  <div class="wrap copy">© <span id="y">2026</span> AK Smarts. All rights reserved.</div>
+  <div class="copy"><span>© 2026 AK Smarts. All rights reserved.</span><span>info@aksmarts.com</span></div>
+ </div>
 </footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
